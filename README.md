@@ -8,6 +8,17 @@
 | --- | --- | --- |
 | Website and CMS developer | Client project; delivered version available at the preview link | Multilingual UX, interactive planning and content operations |
 
+<p align="center">
+  <img src="assets/home-desktop.jpg" alt="Travessia do Sol home page on desktop" width="640">
+  <img src="assets/home-mobile.jpg" alt="Travessia do Sol home page on mobile" width="190">
+</p>
+
+<p align="center">
+  <img src="assets/planner.jpg" alt="Interactive stay planner with dates, group and estimate" width="640">
+</p>
+
+<sub>Reduced-size captures of the delivered preview, taken on 23 November 2026. The planner shows an estimate to support an enquiry; it is not a checkout or a confirmed reservation. The CMS is not shown.</sub>
+
 ## Context
 
 Travessia do Sol presents retreat houses and experiences to an international audience. Visitors need to understand the spaces, explore retreats and plan a possible stay. The owner needs to update changing information without editing the application code.
@@ -68,4 +79,4 @@ Database work includes schema migrations, access policies and transactional publ
 
 [Development workflow](https://github.com/alissonramosz/ai-product-portfolio#development-workflow)
 
-This repository contains the public case study. Client content, media assets, administrative data and application source are not redistributed here.
+This repository contains the public case study. The screenshots are reduced-size captures of the public preview. Client content and original media files, administrative data and application source are not redistributed here.
