@@ -2,7 +2,7 @@
 
 **A multilingual retreat-house website with a stay planner and a client-operated content system.**
 
-[View the delivered site preview](https://preview.travessiadosol.com) · [All projects](https://github.com/alisson539/ai-product-portfolio)
+[View the delivered site preview](https://preview.travessiadosol.com) · [All projects](https://github.com/alissonramosz/ai-product-portfolio)
 
 | Role | Delivery | Focus |
 | --- | --- | --- |
@@ -54,6 +54,18 @@ The estimate makes a potential stay easier to discuss. It is not presented as a 
 
 The [preview deployment](https://preview.travessiadosol.com) shows the delivered application. At the time this case was prepared, the main `travessiadosol.com` website still served the previous version. The CMS requires owner access and is not a public demo.
 
-**Technology:** TypeScript, Next.js, React, Supabase/PostgreSQL, object storage, GSAP and Lenis.
+## Technical implementation
+
+| Layer | Technology | Responsibility |
+| --- | --- | --- |
+| Website and planner | TypeScript, Next.js, React | Localized pages and interactive stay estimates |
+| CMS data | Supabase, PostgreSQL, SQL | Drafts, published content and revision history |
+| Editor access | Supabase Auth and database access policies | Private editing and preview, separate from public reading |
+| Media pipeline | Object storage, Sharp | Upload processing and reusable website images |
+| Motion | GSAP, Lenis | Page interaction and scroll behavior |
+
+Database work includes schema migrations, access policies and transactional publication. Version checks protect against concurrent edits; the preview reads drafts only within the authenticated editing workflow.
+
+[Development workflow](https://github.com/alissonramosz/ai-product-portfolio#development-workflow)
 
 This repository contains the public case study. Client content, media assets, administrative data and application source are not redistributed here.
